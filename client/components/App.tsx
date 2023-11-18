@@ -1,10 +1,21 @@
+import Shows from './Shows'
+import P5TestSketch from './Boxes'
+import './App.css'
+
 function App() {
   return (
     <>
       <header className="header">
-        <h1>My Collection</h1>
+        <h1>Raadeo</h1>
       </header>
-      <section className="main">{/* add your code here */}</section>
+      <section className="main">
+        <Shows />
+        <div className="container">
+          <div className="sketch">
+            <P5TestSketch />
+          </div>
+        </div>
+      </section>
     </>
   )
 }
