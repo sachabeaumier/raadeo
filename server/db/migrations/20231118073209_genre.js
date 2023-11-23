@@ -6,6 +6,7 @@ exports.up = function (knex) {
   'genre',
     function (table) {
       table.increments('id').primary()
+      table.string('genre').notNullable()
     }
 }
 

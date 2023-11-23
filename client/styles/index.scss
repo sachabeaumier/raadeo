@@ -26,34 +26,3 @@
 // }
 
 
-import * as React from "react"
-
-const containerStyles = {
-  position: 'relative',
-  left: '50%',
-  top: '50%',
-  transform: 'translate(-50%, 50%)',
-  backgroundColor: 'black',
-  width: '50vw',
-  height: '50vh',
-}
-
-const sketchStyles = {
-  position: 'absolute',
-  left: '50%',
-  top: '50%',
-  transform: 'translate(-50%, -50%)',
-}
-
-const IndexPage = () => {
-  return(
-    <div style={containerStyles}>
-      <div style={sketchStyles}>
-
-      </div>
-    </div>
-  )
-} 
-
-export default IndexPage
-        
